@@ -1,0 +1,46 @@
+<style>
+
+header {
+    position: fixed;
+    margin-top: 0px;
+    background-color:burlywood;
+    color: gray;
+}
+
+header img {
+    float: inline-start;
+}
+
+header a {
+    float: inline-end;
+    padding: 14px 16px;
+    color: gray;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: black;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form {
+    align-content: center;
+}
+
+input {
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 20px;
+    background-color:lavender;
+    color: black;
+}
+
+</style>
