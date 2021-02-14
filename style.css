@@ -1,9 +1,12 @@
 <style>
 
+
 header {
+    display: block;
     position: fixed;
+    width:100%;
     margin-top: 0px;
-    background-color:burlywood;
+    background-color:rgb(223, 171, 103);
     color: gray;
 }
 
@@ -23,10 +26,12 @@ header a:hover {
 }
 
 .container {
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(235, 110, 8, 0.562);
+    border-style: hidden;
 }
 
 .form {
