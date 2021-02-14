@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
 <header id="header">
-    <nav id="navbar">
+    
 
         <!--Place header image here-->
-        <img id="header-img" src="">
-   
+        <img id="header-img" src="https://www.thisisarizonamusic.com/image_new/logo.png" alt="ARIZONA Logo">
+        
+    <nav id="header">
         <!--navigation elements here that scroll page-->
         <a id="navlink" href="#">Contact</a>
         <a id="navlink" href="#">About</a>
-        <a id="navlink" href="#">Products</a>
+        <a id="navlink" href="#">Music</a>
+        <a href="#" class="fa fa-instagram fa-lg" style="padding-top:17px"></a>
+        <a href="#" class="fa fa-twitter fa-lg" style="padding-top:17px"></a>
     </nav>
 </header>
-<br>
-<br>
+
+<body>
+
 <!--add embedded video here-->
-<div class="container">
-    <iframe id="video" width="420" height="315" src="https://www.youtube.com/watch?v=i-eX8ri3pr0autoplay=1&mute=1"></iframe>
+<div class="gif">
+    <iframe id="video" src="https://giphy.com/gifs/9JaCrRNi3gPRhtA8tl/html5"></iframe>
 </div>
 
 <!--Check for correct syntax-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4"></div>
-        <p>Subscribe for the latest news!</p>
-    </div>
-    <div class="row" style="margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
-        <form id="form"> 
-            <input id="email" type="email" placeholder="Email" required>
-            <button id="submit" type="button" src="https://www.freecodecamp.com/email-submit">Subscribe</button>
+<div>
+    <p>Subscribe for Email Updates!</p>
+</div>
+    <form id="form"> 
+        <input id="email" type="email" placeholder="Email" required>
+        <button class="button" id="submit" type="button" src="https://www.freecodecamp.com/email-submit">Subscribe</button>
         </form>
-    </div>
 </div>
 
 </body>
 
-<!--add bootstrap links-->
 </html>
 
 <!--add media query to css-->

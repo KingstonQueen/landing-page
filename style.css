@@ -2,50 +2,98 @@
 
 
 header {
-    display: block;
+    z-index: 1;
     position: fixed;
-    width:100%;
-    margin-top: 0px;
-    background-color:rgb(223, 171, 103);
+    height: 100px;
+    width: 100%;
+    background-color:white;
     color: gray;
 }
 
 header img {
     float: inline-start;
+    padding-left: 2%;
+    padding-top: 2%;
 }
 
 header a {
     float: inline-end;
     padding: 14px 16px;
-    color: gray;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header a:hover {
+    color:teal;
+}
+
+body {
+    background-color: black;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
     text-decoration: none;
 }
 
-header a:hover {
-    text-decoration: black;
+.fa-twitter {
+    background: black;
+    color: white;
+    text-decoration: none;
 }
 
-.container {
-    display: block;
+.containter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+iframe {
+    display:block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-    background-color: rgba(235, 110, 8, 0.562);
+    overflow:hidden;
+    height: 340px;
+    width: 490px;
+    border: none;
+}
+
+.gif {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
     border-style: hidden;
 }
 
-.form {
-    align-content: center;
+p {
+    color: white;
+    text-align: center;
+}
+
+form {
+    text-align: center;
 }
 
 input {
     border-radius: 20px;
+    padding: 8px;
+    width: 30%;
+    background-color: white;
 }
 
 button {
-    border-radius: 20px;
-    background-color:lavender;
+    background-color: white;
     color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 </style>
