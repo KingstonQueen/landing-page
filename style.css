@@ -123,4 +123,19 @@ footer a {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+
+    header a {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .albums {
+        flex-flow: column;
+        align-items: center;
+    }
+
+}
+
 </style>
