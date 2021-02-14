@@ -9,14 +9,14 @@
 
 <header id="header">
     
-    <nav id="header">
+    <nav id="nav-bar">
         <!--ARIZONA Logo-->
         <img id="header-img" src="https://www.thisisarizonamusic.com/image_new/logo.png" alt="ARIZONA Logo">
         
         <!--navigation elements here that scroll page-->
-        <a id="navlink" href="#">Contact</a>
-        <a id="navlink" href="#">About</a>
-        <a id="navlink" href="#">Music</a>
+        <a id="nav-link" href="#form">Subscribe</a>
+        <a id="nav-link" href="#bandmates">Bandmates</a>
+        <a id="nav-link" href="#music">Albums</a>
         <a href="#" class="fa fa-instagram fa-lg" style="padding-top:17px"></a>
         <a href="#" class="fa fa-twitter fa-lg" style="padding-top:17px"></a>
     </nav>
@@ -25,7 +25,7 @@
 <body>
 
 <!--Flexbox Album Covers-->
-<div class="albums">
+<div class="albums" id="music">
     <div class="item">
         <img class="album-photo" src="https://www.thisisarizonamusic.com/image_new/Gallery.png" alt="Gallery Cover Photo">
         <p>Gallery // 2017</p>
@@ -44,11 +44,12 @@
 <br>
 
 <!--Embedded Video - Gif-->
-<div class="gif">
+<div class="gif" id="bandmates">
     <iframe id="video" src="https://giphy.com/gifs/2WjpRuQpCyM6V8sHu9/html5"></iframe>
 </div>
 
 <!--Subscription Input-->
+
 <div>
     <p>Subscribe for New Releases!</p>
 </div>
@@ -64,9 +65,9 @@
 <!--Footer-->
 <footer>
     <div id="footerlinks">
-        <a id="navlink" href="#">Music</a>
-        <a id="navlink" href="#">About</a>
-        <a id="navlink" href="#">Contact</a>
+        <a href="#form">Subscribe</a>
+        <a href="#bandmates">Bandmates</a>
+        <a href="#music">Albums</a>
         <a href="#" class="fa fa-instagram fa-lg" style="padding-top:17px"></a>
         <a href="#" class="fa fa-twitter fa-lg" style="padding-top:17px"></a> 
     </div>
@@ -77,6 +78,5 @@
 
 </html>
 
-<!--add media query to css-->
-<!--use flexbox at least once-->
+
 
